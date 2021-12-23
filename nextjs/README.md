@@ -13,5 +13,5 @@ docker build -t {image-name} .
 Once the image is created (and this image can be reused as well for other projects), we need to run the Docker compose run command
 
 ```
-docker-compose run --rm -p 3000:3000 webclient
+docker-compose run --rm -p 3000:3000 {service_name}
 ```
